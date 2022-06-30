@@ -1,0 +1,10 @@
+#swap of two number without using argument
+#include<stdio.h>
+int a, b;
+a = 10;
+b = 15;
+printf(before swap of two no.);
+a=b-a;
+b=a-b;
+printf(after swap of two no.);
+
